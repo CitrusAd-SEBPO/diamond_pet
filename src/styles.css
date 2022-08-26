@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pov-text{
+    @apply p-5 2xl:p-10 lg:p-6 md:pl-12 md:pt-3 md:pb-3 block sm:order-none xs:order-2 sm:w-1/2 xs:w-full;
+}
+
+.pov-text__title{
+    @apply text-4xl 2xl:text-4xl xl:text-4xl lg:text-2xl md:text-base font-bold block w-full pt-5 2xl:pt-8 lg:pt-4 md:pt-2;
+}

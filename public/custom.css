@@ -1,0 +1,36 @@
+.citrus_diamond_carousel{
+    width: 100%;
+    position: relative;
+}
+
+.citrus_diamond_carousel-inner{
+    display: flex;
+    transition: all ease .5s;
+}
+
+.citrus_diamond_carousel-item{
+    width: 100%;
+}
+
+.citrus_diamond_carousel-indicators{
+    position: absolute;
+    bottom: 0;
+    left: calc(100%/2 - 52px);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px 5px 0 0;
+    padding: 10px 10px 5px;
+}
+
+.citrus_diamond_carousel-indicators span{
+    display: inline-block;
+    border: 2px solid #09205c;
+    padding: 7px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.citrus_diamond_carousel-indicators span.active{
+    background-color: #09205c;
+}
