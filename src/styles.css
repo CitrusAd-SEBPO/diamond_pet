@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .pov-text{
-    @apply p-5 2xl:p-10 lg:p-6 md:pl-12 md:pt-3 md:pb-3 block sm:order-none xs:order-2 sm:w-1/2 xs:w-full;
+    @apply p-5 2xl:p-10 lg:p-6 2xl:pl-12 md:pt-3 md:pb-3 block sm:order-none xs:order-2 w-1/2 sm:w-1/2 xs:w-full;
 }
 
 .pov-text__title{

@@ -10,6 +10,7 @@
 
 .citrus_diamond_carousel-item{
     width: 100%;
+    overflow: hidden;
 }
 
 .citrus_diamond_carousel-indicators{
