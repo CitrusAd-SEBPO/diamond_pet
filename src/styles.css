@@ -7,7 +7,7 @@
 }
 
 .pov-text__title{
-    @apply text-4xl 2xl:text-4xl xl:text-4xl lg:text-2xl md:text-base font-bold block w-full pt-5 2xl:pt-8 lg:pt-4 md:pt-2;
+    @apply text-4xl 2xl:text-4xl xl:text-4xl lg:text-2xl md:text-base font-bold block w-full pt-5 2xl:pt-8 lg:pt-4 md:pt-2 xs:text-center;
 }
 
 
@@ -15,7 +15,12 @@
 
 /* Common Classes */
 .citrus-diamonpet-cta-box{
+    @apply w-36 md:w-36 lg:w-52 bg-white text-black p-4 lg:p-4 md:p-3 rounded text-center xs:w-full
+}
 
+.citrus-diamonpet-cta-box:hover{
+    background: #001952;
+    color: #fff;
 }
 
 .citrus-diamonpet-main-wrapper img{
@@ -131,10 +136,6 @@
         opacity: 0;
     }
 
-    /* .cirtus_tabs_main_22_hide_arrow .splide__arrows{
-                display: none;
-            }*/
-
     .cirtus_tabs_main_22 .splide__pagination {
         display: none;
     }
@@ -205,6 +206,28 @@
     transition: all ease .5s;
 }
 
+.citrus_diamond_carousel-inner .pov1{
+    background-image: url("img/diamondpet-pov1-full.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.citrus_diamond_carousel-inner .pov2{
+    background-image: url("img/diamondpet-pov2-full.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.citrus_diamond_carousel-inner .pov3{
+    background-image: url("img/diamondpet-pov3-full.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .citrus_diamond_carousel-item{
     width: 100%;
     overflow: hidden;
@@ -234,9 +257,7 @@
 }
 
 /* Products Tab */
-.citrus_diamondpet__dog_tabs{
 
-}
 
 .citrus_diamondpet__dog_tabs--cta .citrus_diamonpet_tab__list--item{
     border-bottom: 8px solid #EFEEE7;
@@ -552,6 +573,30 @@
 /* Responsive */
 
 @media only screen and (max-width: 767px) {
+
+    /* POV */
+    .citrus_diamond_carousel-inner .pov1{
+        background-image: unset;
+    }
+    
+    .citrus_diamond_carousel-inner .pov2{
+        background-image: unset;
+    }
+    
+    .citrus_diamond_carousel-inner .pov3{
+        background-image: unset;
+    }
+
+    .citrus-diamonpet-cta-box{
+        background: transparent;
+        color: #001952;
+        text-decoration: underline;
+    }
+
+    .citrus-diamonpet-cta-box:hover{
+        background: transparent;
+        color: #001952;
+    }
 
     /* Cat Section */
     .citrus-diamonpet__cat .flex{
