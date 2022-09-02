@@ -13,7 +13,7 @@
 
 /* Common Classes */
 .citrus-diamonpet-cta-box{
-    
+
 }
 
 
@@ -535,4 +535,30 @@
 }
 .tab__list_top_img_btn .tab__item .normal{
     display: block;
+}
+
+/* Cat Section */
+.citrus-diamonpet__cat .single-item img{
+    min-width: 230px;
+    margin: 0 auto;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 767px) {
+
+    /* Cat Section */
+    .citrus-diamonpet__cat .flex{
+        width: 300%;
+    }
+
+    .citrus-diamonpet__cat{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .citrus-diamonpet__cat .flex .single-item{
+        width: 60%;
+    }
+
 }
