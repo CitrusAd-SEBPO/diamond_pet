@@ -632,6 +632,10 @@ video {
   display: none;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .w-36 {
   width: 9rem;
 }
@@ -666,6 +670,10 @@ video {
 
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -721,6 +729,11 @@ video {
   background-color: rgb(239 238 231 / var(--tw-bg-opacity));
 }
 
+.bg-custom-gold {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 130 88 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -755,6 +768,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -771,6 +789,11 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -892,6 +915,10 @@ video {
 /* Common Classes */
 
 .citrus-diamonpet-cta-box{
+}
+
+.citrus-diamonpet-main-wrapper img{
+  width: 100%;
 }
 
 /* Citrus Diamond Pet Tab */
@@ -1476,6 +1503,10 @@ button {
 
   .xs\:w-full {
     width: 100%;
+  }
+
+  .xs\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .xs\:items-start {
