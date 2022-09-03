@@ -773,6 +773,10 @@ video {
   padding-bottom: 3rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1018,7 +1022,7 @@ button {
 .citrus_diamonpet_tab_item.citrus_diamonpet_tab_item_active {
   color: #001952;
   border-bottom: 8px solid #001952;
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .citrus-diamonpet-tab__btn {
@@ -1634,6 +1638,10 @@ button {
 }
 
 @media (min-width: 640px) {
+  .sm\:ml-6 {
+    margin-left: 1.5rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1685,6 +1693,10 @@ button {
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:uppercase {
