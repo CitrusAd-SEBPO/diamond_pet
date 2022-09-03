@@ -886,6 +886,7 @@ video {
 @media (min-width: 768px) {
   .pov-text__title {
     padding-top: 0.5rem;
+    text-align: left;
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -1639,10 +1640,6 @@ button {
 
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:h-80 {
-    height: 20rem;
   }
 
   .sm\:w-1\/2 {
