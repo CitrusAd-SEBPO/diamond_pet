@@ -612,10 +612,6 @@ video {
   margin-top: 1.25rem;
 }
 
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -642,6 +638,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .max-w-screen-xl {
@@ -771,10 +771,6 @@ video {
 
 .pb-12 {
   padding-bottom: 3rem;
-}
-
-.text-left {
-  text-align: left;
 }
 
 .text-center {
@@ -952,6 +948,42 @@ video {
   }
 }
 
+.citrus-diamonpet-cta-box-tab {
+  width: 10rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 1rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 100px) {
+  .citrus-diamonpet-cta-box-tab {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .citrus-diamonpet-cta-box-tab {
+    width: 10rem;
+    padding: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .citrus-diamonpet-cta-box-tab {
+    width: 13rem;
+    padding: 1rem;
+  }
+}
+
+.citrus-diamonpet-cta-box-tab:hover{
+  color: #001952;
+  background: #fff;
+}
+
 .citrus-diamonpet-cta-box:hover{
   background: #001952;
   color: #fff;
@@ -980,8 +1012,6 @@ video {
   width: 100%;
   margin: 0 auto;
 }
-
-/***** best seller section ****/
 
 .citrus_diamonpet_grain_div.citrusTabshow {
   display: block;
@@ -1527,6 +1557,17 @@ button {
   margin: 0 auto;
 }
 
+.diamonpet-product-grid::-webkit-scrollbar {
+  display: none;
+}
+
+.diamonpet-product-grid {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 767px) {
@@ -1669,6 +1710,10 @@ button {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .sm\:uppercase {
+    text-transform: uppercase;
   }
 
   .sm\:leading-4 {

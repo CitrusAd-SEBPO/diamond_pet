@@ -18,6 +18,15 @@
     @apply w-36 md:w-36 lg:w-52 bg-white text-black p-4 lg:p-4 md:p-3 rounded text-center xs:w-full
 }
 
+.citrus-diamonpet-cta-box-tab{
+    @apply w-40 md:w-40 lg:w-52 bg-white text-black p-4 lg:p-4 md:p-3 rounded text-center xs:w-full
+}
+
+.citrus-diamonpet-cta-box-tab:hover{
+    color: #001952;
+    background: #fff;
+}
+
 .citrus-diamonpet-cta-box:hover{
     background: #001952;
     color: #fff;
@@ -45,8 +54,6 @@
     }
 
 
-
-    /***** best seller section ****/
     .citrus_diamonpet_grain_div.citrusTabshow {
         display: block;
     }
@@ -569,6 +576,14 @@
     min-width: 230px;
     margin: 0 auto;
 }
+
+.diamonpet-product-grid::-webkit-scrollbar {
+    display: none;
+}
+.diamonpet-product-grid {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 /* Responsive */
 
