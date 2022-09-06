@@ -589,6 +589,14 @@
     scrollbar-width: none;  /* Firefox */
   }
 
+
+/* Videos   */
+.citrus-diamondpet-videos .content-text{
+    background: #948258;
+}
+
+
+
 /* Responsive */
 
 @media only screen and (max-width: 767px) {
