@@ -722,7 +722,7 @@ video {
 
 .bg-custom-gold {
   --tw-bg-opacity: 1;
-  background-color: rgb(148 130 88 / var(--tw-bg-opacity));
+  background-color: rgb(192 185 162 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -1206,6 +1206,10 @@ button {
 
 .citrus_diamondpet__dog_tabs--cta .citrus_diamonpet_tab__list--item .is--active{
   border-bottom: 8px solid #001952;
+}
+
+.citrus-tab-section__tab-content .cirtus_tabs_main_22 .splide__arrows button:hover{
+  background: #fff;
 }
 
 /* Splide Styles */

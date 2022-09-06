@@ -274,6 +274,10 @@
     border-bottom: 8px solid #001952;
 }
 
+.citrus-tab-section__tab-content .cirtus_tabs_main_22 .splide__arrows button:hover{
+    background: #fff;
+}
+
 
 /* Splide Styles */
 .splide__list {
