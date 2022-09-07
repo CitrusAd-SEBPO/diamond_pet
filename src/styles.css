@@ -592,7 +592,8 @@
 
 /* Videos   */
 .citrus-diamondpet-videos .content-text{
-    background: #948258;
+    /* background: #948258; */
+    background: rgba(148, 130, 88, 0.5);
 }
 
 
